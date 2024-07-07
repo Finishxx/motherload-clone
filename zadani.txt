@@ -1,0 +1,55 @@
+Originální zadání na téma Sandox hra:
+
+Naprogramujte jednoduchou 2D sandbox hru.
+
+Hra musí splňovat následující funkcionality
+
+    Implementujte hráče (postava, loď, ...) a jeho stav (energie, životy, brnění, skore, ...)
+    Vytvořte (soubojový) model zranění - alespoň dvě příčiny (pád z výšky, soubor s nepřítelem, pobyt v lávě, ...)
+    Vytvořte jednoduchý model prostředí (gravitace, přelévání vody (lávy), růst stromů, ...)
+    Naimplementujte načítání (konfigurace generátoru) mapy ze souboru a umožněte ukládat aktuální stav hry.
+
+Kde lze využít polymorfismus? (doporučené)
+
+    Postavy: hráč, zvířata, přítel (obchodník), nepřítel (různé druhy)
+    Efekty akcí: pád, úder, kontakt s lávou
+    Prostředí: vzduch, voda, hlína, uhlí, kov, láva, žebřík,...
+    Uživatelské rozhraní: konzole, ncurses, SDL, OpenGL (různé varianty), ...
+
+Ukázky:
+
+    http://www.miniclip.com/games/motherload/en/
+    https://en.wikipedia.org/wiki/Terraria
+    2D Minecraft
+
+Doplněné zadání:
+
+Cílem semestrální práce bude vytvořit hru inspirovanou hrou Motherload. Hráč bude ovládat těžební vozítko na planetě Mars.
+Jeho cílem bude přežít nehostinné podmínky na Marsu a zbohatnout z těžby tamního nerostného bohatství.
+Zisk z prodeje natěžených vzácných rud se bude dát využít na vylepšení vozítka.
+
+Nastane-li situace, kdy měřič paliva, či životů vozítka dojde k nule, tak hra končí neúspěchem.
+
+Těžení je zkomplikované tím, že na vozítko stále působí gravitace, tudíž padá. Padá-li avšak vozítko,
+tak nemůže těžit, tedy může těžit jen v případě, kdy stojí na pevné půdě a to jen směrem doleva, doprava a dolů.
+Příliš rychlý pád vozítko poškodí.
+
+Je-li vozítko na povrchu může obchodovat s penězmi nabitými z těžby. Může si buď dokoupit palivo a opravy za fixní částku,
+nebo může investovat do vylepšení vozítka. Vozítko se vylepšuje v pořadí Pancíř -> Palivová nádrž -> Těžební vrták, a pak znovu lepší pancíř atd.
+Každá kategorie má 4 úrovně vylepšení, tudíž dohromady 12 vylepšení. Každá úroveň vylepšení je dražší.
+
+Terén podzemí bude rozdělen na jednotlivé bloky.
+Tyto bloky mohou být: prázdné, hliněné, podzemní prázdné, uhlí, železo, zlato, titan.
+Vzácnější rudy budou uložené níže. Po vytěžení políčka se toto políčko uvolní a hráč dostane peněžní odměnu.
+Vytěží-li hráč titan, dostane také malé poškození.
+
+Ovládání:
+WASD, šipky pro pohyb vozítka.
+Pohyb + mezerník pro těžbu ve směru pohybu.
+R pro doplnění životů a paliva za peníze.
+U pro vylepšení vozítka za peníze.
+I pro uložení hry.
+
+Polymorfismus je uplatněn:
+- Bloky terénu - zemina, uhlí, železo, zlato, titan
+- Hlavní komponenty hry ( update, save, input, draw )

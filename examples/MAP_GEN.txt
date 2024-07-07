@@ -1,0 +1,17 @@
+GenerationSetup:
+FreeSpace: 20 |
+UndergroundEmptySpawnChance: 20 |
+UnderGroundEmptySpawnDepth: 2 |
+CoalSpawnChance: 10 |
+CoalSpawnDepth: 3 |
+IronSpawnChance: 6 |
+IronSpawnChanceMax: 1 |
+IronSpawnDepth: 5 |
+GoldSpawnChance: 2 |
+GoldSpawnChanceMax: 1 |
+GoldSpawnDepth: 1 |
+TitaniumSpawnChance: 0 |
+TitaniumSpawnChanceMax: 6 |
+TitaniumSpawnDepth: 20 |
+END |END |END |
+

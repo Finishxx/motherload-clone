@@ -1,0 +1,4 @@
+testInt2: 3 |
+testDouble2: 3.5 |
+testPos2: 4.8 ; 6.9 |
+testBool2: T |

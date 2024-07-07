@@ -1,0 +1,7 @@
+Semestrální práci jsem vykonal samostatně a použil jsem u ní tyto zdroje.
+
+1. Stack overflow [Internet]. 2008. Dostupné na https://stackoverflow.com
+2. cppreference.com [Internet]. 2000. Dostupné na https://cppreference.com
+3. SDL Game Development, Schaun Mitchell [Book]. 2013. Dostupné na https://www.packtpub.com/product/sdl-game-development/9781849696821. ISBN: 9781849696821
+4. Lazy Foo's tutorial on SDL [Internet]. 2004. Dostupné na https://lazyfoo.net/tutorials/SDL/index.php
+5. DejaVu Sans Mono font, Bitstream (c), DejaVu fonts team 2003. https://github.com/dejavu-fonts/dejavu-fonts
