@@ -54,3 +54,13 @@ As an example, see [WEIRD_MAP_GEN.txt](examples/WEIRD_MAP_GEN.txt) in examples d
 - `R` - buy health & armor on surface
 - `U` - buy upgrade on surface
 - `I` - save game
+
+### Screenshots
+
+![Default game surface](screenshots/surface.PNG)
+
+![Default game underground](screenshots/underground.PNG)
+
+![On "FIT" letters from save game](screenshots/on_fit.PNG)
+
+![Weird "gold" generation](screenshots/weird_gen.PNG)
