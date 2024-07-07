@@ -57,10 +57,14 @@ As an example, see [WEIRD_MAP_GEN.txt](examples/WEIRD_MAP_GEN.txt) in examples d
 
 ### Screenshots
 
-![Default game surface](screenshots/surface.PNG)
+<h4>Default settings surface</h4>
+<img src="screenshots/surface.PNG" alt="Default settings surface" width="500"/>
 
-![Default game underground](screenshots/underground.PNG)
+<h4>Default settings underground</h4>
+<img src="screenshots/underground.PNG" alt="Default settings underground" width="500"/>
 
-![On "FIT" letters from save game](screenshots/on_fit.PNG)
+<h4>On "FIT" letters from save game</h4>
+<img src="screenshots/on_fit.PNG" alt="On 'FIT' letters from save game" width="500"/>
 
-![Weird "gold" generation](screenshots/weird_gen.PNG)
+<h4>Custom map generation - high gold chance</h4>
+<img src="screenshots/weird_gen.PNG" alt="Custom map generation - high gold chance" width="500"/>
