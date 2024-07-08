@@ -63,7 +63,7 @@ As an example, see [WEIRD_MAP_GEN.txt](examples/WEIRD_MAP_GEN.txt) in examples d
 <h4>Default settings underground</h4>
 <img src="screenshots/underground.PNG" alt="Default settings underground" width="500"/>
 
-<h4>On "FIT" letters from save game</h4>
+<h4>On "FIT" letters, showcasing custom saved game</h4>
 <img src="screenshots/on_fit.PNG" alt="On 'FIT' letters from save game" width="500"/>
 
 <h4>Custom map generation - high gold chance</h4>
