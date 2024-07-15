@@ -1,8 +1,7 @@
 # Motherload game clone
 
 Greatly simplified imitation of Motherload,
-a flash game playable for example [here](https://www.crazygames.com/game/motherload),
-made as a semestral project in [FIT CTU](https://fit.cvut.cz/cs)'s "Programming and Algorithms 2" class.
+a flash game playable for example [here](https://www.crazygames.com/game/motherload).
 
 The assignment (available in full in czech language in file [zadani.txt](zadani.txt)) in short was to make
 a simple 2D survival game in `C++`. Additional requirements were to use polymorphism,
